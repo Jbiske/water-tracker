@@ -1,0 +1,42 @@
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #0077be;
+  color:white;
+  }
+  
+  .brand {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 30px;
+    color: #fff;
+    
+  }
+  
+  .menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  .menu li {
+    margin-left: 20px;
+    
+  }
+  
+  .menu li a {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .menu li a:hover {
+    color: #f8f8f8;
+  }
